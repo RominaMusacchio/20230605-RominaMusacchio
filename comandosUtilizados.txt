@@ -1,0 +1,24 @@
+  306  git init
+  307  git config user.name Romina Musacchio
+  308  git config user.email musacchioromina@gmail.com
+  309  git remote add origin https://github.com/RominaMusacchio/20230605-RominaMusacchio.git
+  310  touch comandos.txt main.js index.html
+  311  git add .
+  312  git commit -m "commit 01 de rominaMusacchio"
+  313  git push origin main
+  314  git branch feature01
+  315  git checkout feature01
+  316  mkdir Terminal Hardware
+  317  touch Terminal/resumen.txt
+  318  touch Hardware/resumen.txt
+  319  git add .
+  320  git commit -m "commit 02 de rominaMusacchio"
+  321  git push origin feature01
+  322  git branch feature02
+  323  git checkout feature02
+  324  git add .
+  325  git commit -m "commit 03 de rominaMusacchio"
+  326  git push origin feature02
+  327  git checkout main
+  328  mv comandos.txt comandosUtilizados.txt
+  329  history
