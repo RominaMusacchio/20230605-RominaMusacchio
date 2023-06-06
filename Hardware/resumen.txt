@@ -1,0 +1,3 @@
+CPU o procesador
+Memoria RAM
+Disco duro
